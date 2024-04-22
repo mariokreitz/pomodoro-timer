@@ -1,6 +1,6 @@
 # 25 + 5 Clock (Pomodoro Timer)
 
-![Pomodoro Timer](https://img.shields.io/badge/Pomodoro-Timer-blue)
+![Pomodoro Timer](https://raw.githubusercontent.com/mariokreitz/pomodoro-timer/main/src/assets/cover.png)
 
 Dieses Projekt ist Teil des Zertifikatskurses "Front End Development Libraries" auf [freeCodeCamp.org](https://www.freecodecamp.org/).
 
