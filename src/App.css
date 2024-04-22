@@ -1,0 +1,91 @@
+:root {
+	--primary: #0cdc4c;
+	--secondary: #6342ec;
+	--border: #3864f0;
+}
+#root {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	text-align: center;
+	padding: 20px;
+}
+.app-name {
+	margin: 20px;
+	font-size: 3.5rem;
+	text-shadow: 0 1px 0 snow, 0 2px 0 var(--border), 0 3px 0 var(--border), 0 4px 0 var(--border), 0 5px 0 var(--border),
+		0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+		0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+.app-control {
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+	padding: 10px;
+}
+.control {
+	padding: 10px;
+}
+#break-label,
+#session-label {
+	font-size: 1.4rem;
+	margin-bottom: 4px;
+}
+.break-control,
+.session-control {
+	display: flex;
+	justify-content: space-around;
+	font-size: 2rem;
+}
+.timer-display {
+	margin: 8px;
+	padding: 10px;
+}
+.timer-control {
+	display: flex;
+	gap: 1rem;
+	font-size: 2.5rem;
+	justify-content: center;
+	padding: 10px;
+}
+.timer {
+	padding: 10px;
+	font-size: 1.4rem;
+}
+#time-left {
+	font-size: 3rem;
+}
+.border-top {
+	border-top: 1px inset #3864f0;
+}
+.border-bottom {
+	border-bottom: 1px inset #3864f0;
+}
+.border-rounded {
+	border-radius: 20px;
+}
+button {
+	display: flex;
+	background: none;
+	outline: none;
+	border: none;
+	color: var(--primary);
+	cursor: pointer;
+	font-size: inherit;
+	align-items: center;
+}
+button:hover {
+	color: var(--secondary);
+}
+@media (max-width: 430px) {
+	.app-name {
+		font-size: 3rem;
+	}
+	#break-label,
+	#session-label {
+		font-size: 1rem;
+	}
+}
