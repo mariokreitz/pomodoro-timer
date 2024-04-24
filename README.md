@@ -1,4 +1,4 @@
-# 25 + 5 Clock (Pomodoro Timer)
+# 25 + 5 Clock (Pomodoro Timer) [![Netlify Status](https://api.netlify.com/api/v1/badges/873cb661-9575-480c-bb0a-00a9e7a3a95e/deploy-status)](https://app.netlify.com/sites/twentyfive-plus-five-timer/deploys)
 
 ![Pomodoro Timer](https://raw.githubusercontent.com/mariokreitz/pomodoro-timer/main/src/assets/cover.png)
 
